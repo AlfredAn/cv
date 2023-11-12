@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+\usepackage{multicol}
+
+% Set the default font
+\usepackage{tgpagella}
+
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+}
+
+\titleformat{\section}{\vspace*{-1.5pt}\fontfamily{phv}\large\bfseries}{}{1em}{}[\titlerule] % Section title format
+
+% empty the headers, footers, pagenumbers…
+\pagestyle{empty}
+
+\begin{document}
+\begin{center}
+    \fontfamily{phv} \Huge{\textbf{Alfred Andersson}}
+\end{center}
+Norregårdsvägen 11 \hfill +46 766276025 \\
+291 63 Kristianstad \hfill \href{mailto:alfred@rygno.net}{alfred@rygno.net} \\ 
+Sweden \hfill \url{https://github.com/AlfredAn}
+
+\section{Education}
+\begin{tabular}{ l p{405pt} }
+    2023 -- 2025 & \href{https://www.lth.se/utbildning/datateknik300/}{\textbf{Master of Science in Engineering, Computer Science and Engineering}}
+    \newline \href{https://www.lth.se/english/}{LTH (Lund University)} \\ \\
+
+    2016 -- 2019 & \href{https://www.kth.se/utbildning/civilingenjor/datateknik}{\textbf{Degree Programme in Computer Science and Engineering}}
+    \newline \href{https://www.kth.se/en}{KTH Royal Institute of Technology, Stockholm}
+    \newline \textit{(3 out of 5 years completed, including \href{https://kth.diva-portal.org/smash/record.jsf?pid=diva2\%3A1701708\&dswid=-199}{my Bachelor's thesis})}
+\end{tabular}
+
+\section{Projects}
+\begin{itemize}
+    \item \href{https://kth.diva-portal.org/smash/record.jsf?pid=diva2\%3A1701708\&dswid=-199}{Bachelor's thesis --- \textit{An efficient algorithm for strategy synthesis in multi-agent games of imperfect information.}}
+    \item Various personal projects --- games, parsers, interpreters, chess engines, etc.
+\end{itemize}
+
+\section{Skills and experience}
+\begin{itemize}
+    \item Rust, Java, C, C++, Python --- I have used these extensively for school and/or personal projects. I am especially interested in low-level programming and optimization.
+    \item JavaScript, TypeScript, C\#, Haskell, Go, Matlab, Prolog --- I have some experience with these.
+    \item OpenGL/GLSL and general graphics programming.
+    \item HTML/CSS.
+    \item 3D printing.
+\end{itemize}
+
+\section{Selected courses}
+\vspace*{-14pt}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \href{https://kurser.lth.se/lot/course-syllabus-en/23_24/EDAG01}{EDAG01 Efficient C} \textit{(in progress)}
+    \item \href{https://kurser.lth.se/lot/course-syllabus-en/23_24/EDAN75}{EDAN75 Optimising Compilers} \textit{(in progress)}
+    \item \href{https://www.kth.se/student/kurser/kurs/DD2350?l=en}{DD2350 Algorithms, Data Structures and Complexity}
+    \item \href{https://www.kth.se/student/kurser/kurs/SF1688?l=en}{SF1688 Discrete Mathematics}
+    \item \href{https://www.kth.se/student/kurser/kurs/DD2421?l=en}{DD2421 Machine Learning}
+    \item \href{https://www.kth.se/student/kurser/kurs/SF1681?l=en}{SF1681 Linear Algebra, Advanced Course}
+    \item \href{https://www.kth.se/student/kurser/kurs/DD1388?l=en}{DD1388 Program System Construction Using C++}
+    \item \href{https://www.kth.se/student/kurser/kurs/DA150X?l=en}{DA150X Degree Project in Computer Science and Engineering, First Cycle}
+\end{itemize}
+\end{multicols}
+
+\section{Languages}
+\begin{itemize}
+    \item Swedish \textit{(native)}
+    \item English \textit{(fluent)}
+    \item Japanese \textit{(\href{https://www.jlpt.jp/e/about/levelsummary.html}{JLPT N2})}
+\end{itemize}
+
+\section{Work experience}
+\begin{itemize}
+    \item Worked two summers as a newspaper distributor (\href{https://www.pointlogistik.se/}{Point Logistik}).
+    \item Exam attendant (\href{https://www.lth.se/english/}{Lund University}).
+\end{itemize}
+
+\end{document}
